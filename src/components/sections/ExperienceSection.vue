@@ -83,7 +83,7 @@ const experiences = [
     location: 'London, UK (Remote)',
     duration: 'May 2023 to April 2024',
     details: [
-      'Actively contributed code, bug fixes, and features to the Ivy open-source repository.',
+      'Activist contributor, fixing bugs and features in the repository (<a href="https://github.com/ivy-llc/ivy" target="_blank" class="text-indigo-500 hover:underline">GitHub</a>).',
       'Collaborated effectively within community through code reviews and discussions.',
       'Engaged in design discussions and addressed user-reported issues on community forums.',
       'Promoted Ivy through blog posts, tutorials, and conference presentations.'
