@@ -66,7 +66,7 @@ const projects = [
     type: 'Open Source',
     description: 'Proactively identified technical debt and bugs in the open-source repository. Implemented fixes and automated tests, and deciphered complex codebases to resolve critical backend issues, ensuring stable operation.',
     techStack: ['Analysis', 'Testing', 'Backend Architecture', 'Debugging'],
-    link: null // Generic GitHub profile link can go here later
+    link: 'https://github.com/activist-org/activist'
   },
   {
     title: 'Anime Plot Creator',

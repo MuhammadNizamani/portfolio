@@ -13,7 +13,7 @@
         <div class="md:w-3/5 mb-10 md:mb-0">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             <span class="block mb-2">Hi, I'm</span>
-            <span class="block text-indigo-600 dark:text-indigo-400">Muhammad Ishaque</span>
+            <span class="block text-indigo-600 dark:text-indigo-400">Muhammad Ishaque Nizamani  </span>
           </h1>
           <h2 class="mt-3 text-xl sm:text-2xl text-gray-600 dark:text-gray-300 font-medium">
             Backend & Machine Learning Engineer
@@ -32,13 +32,21 @@
                 View Work
               </a>
             </div>
+            <div class="mt-3 sm:mt-0 rounded-md shadow">
+              <a href="/Muhammad_Ishaque_CV.pdf" download="Muhammad_Ishaque_CV.pdf" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors md:py-4 md:text-lg md:px-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                Download CV
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="md:w-2/5 flex justify-center">
+        <div class="md:w-2/5 flex justify-center mt-12 md:mt-0">
           <div class="relative group">
             <div class="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
-            <img class="relative rounded-full h-64 w-64 object-cover border-4 border-white dark:border-gray-800 shadow-2xl" src="/src/assets/muhammadishaque.png" alt="Muhammad Ishaque" />
+            <img class="relative rounded-full h-72 w-72 object-cover border-4 border-white dark:border-gray-800 shadow-2xl" src="/src/assets/muhammadishaque.png" alt="Muhammad Ishaque" />
           </div>
         </div>
         

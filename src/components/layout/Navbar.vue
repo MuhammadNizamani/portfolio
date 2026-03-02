@@ -5,7 +5,7 @@
         <!-- Logo / Name -->
         <div class="flex-shrink-0 flex items-center">
           <RouterLink to="/" class="text-xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-            Muhammad Ishaque
+            Muhammad I. Nizamani
           </RouterLink>
         </div>
 
