@@ -110,11 +110,9 @@ const sendEmail = async () => {
   statusMessage.value = ''
   
   try {
-    // You will need to replace these with your actual EmailJS credentials
-    // Get these from https://dashboard.emailjs.com/
-    const serviceID = 'YOUR_SERVICE_ID'
-    const templateID = 'YOUR_TEMPLATE_ID'
-    const publicKey = 'YOUR_PUBLIC_KEY'
+    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID
+    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     
     // We create a templateParams object matching standard contact templates
     const templateParams = {
@@ -122,17 +120,11 @@ const sendEmail = async () => {
       from_email: form.value.email,
       subject: form.value.subject,
       message: form.value.message,
-      to_name: 'Muhammad Ishaque'
+      to_name: 'Muhammad Ishaque',
+      time: new Date().toLocaleString()
     }
 
-    /* 
-     Uncomment this when you add your actual keys above 
-     
     await emailjs.send(serviceID, templateID, templateParams, publicKey)
-    */
-    
-    // Simulated delay for UI demonstration
-    await new Promise(resolve => setTimeout(resolve, 1500))
 
     statusSuccess.value = true
     statusMessage.value = 'Message sent successfully! I will get back to you soon.'

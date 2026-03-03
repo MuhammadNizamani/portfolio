@@ -14,9 +14,9 @@
         </h2>
         
         <p class="text-lg text-[#888888] max-w-4xl text-left md:text-center md:text-xl font-['lora-regular']">
-          As a highly motivated and results-driven professional with over 5 years of experience in backend development and database architecture, I specialize in maintaining commercial Python systems and optimizing PostgreSQL databases. My expertise includes query optimization, legacy code modernization, and managing PHP-based admin panels to ensure system stability and high-quality performance. 
+          As a highly motivated and results-driven professional with over 5 years of experience in backend development and database architecture, I specialize in architecting scalable Python systems and optimizing high-performance PostgreSQL databases. My expertise includes complex query optimization, legacy code modernization, and developing intuitive, high-speed admin interfaces using Vue.js and Pinia to ensure seamless system management and stability.
           <br><br>
-          I have a proven record of success in global environments and an aptitude for adapting to complex technical standards. In addition to my technical proficiencies, I possess effective communication skills and excel in collaborative team environments. I am actively pursuing a Senior Backend Developer role where I can leverage my experience to support stable operations and long-term technical growth.
+          I have a proven record of success in building complex technical solutions—ranging from digital livestock management platforms to advanced web automation using Puppeteer. My current research in Visual Speech Recognition (VSR) for the Sindhi language demonstrates my ability to adapt to sophisticated technical standards and lead data-driven innovation. With a strong foundation in Golang and a focus on building resilient, concurrent services, I excel in collaborative environments and global team settings. I am actively pursuing a Senior Backend Developer role where I can leverage my full-stack expertise and academic background in Information Technology to drive long-term technical growth and operational excellence.
         </p>
 
       </div>

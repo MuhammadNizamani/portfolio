@@ -46,8 +46,12 @@
 
           <div class="px-8 pb-8 pt-4 border-t border-gray-200 dark:border-gray-700 mt-auto">
             <a v-if="project.link" :href="project.link" target="_blank" class="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 font-medium transition-colors">
-              View on GitHub
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <span v-if="project.link.includes('github')">View on GitHub</span>
+              <span v-else>Visit Website</span>
+              <svg v-if="project.link.includes('github')" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              <svg v-else xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
@@ -67,6 +71,20 @@ const projects = [
     description: 'Proactively identified technical debt and bugs in the open-source repository. Implemented fixes and automated tests, and deciphered complex codebases to resolve critical backend issues, ensuring stable operation.',
     techStack: ['Analysis', 'Testing', 'Backend Architecture', 'Debugging'],
     link: 'https://github.com/activist-org/activist'
+  },
+  {
+    title: 'SchnellTools.de',
+    type: 'Client Project',
+    description: 'Developed a comprehensive suite of online tools for a German client. Implemented robust SEO strategies to successfully rank the website on Google and secure AdSense approval.',
+    techStack: ['Full Stack', 'SEO', 'Performance Optimization'],
+    link: 'https://schnelltools.de/'
+  },
+  {
+    title: 'Weddle Unlimited (NFL)',
+    type: 'Client Project',
+    description: 'Created a popular web-based NFL guessing game (Weddle) for a US client. Architected both the frontend interaction and the backend game logic.',
+    techStack: ['Web Development', 'Game Logic', 'Frontend Architecture'],
+    link: 'https://weddleunlimited.net/'
   },
   {
     title: 'Anime Plot Creator',
