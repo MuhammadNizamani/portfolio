@@ -9,7 +9,7 @@
           <div class="w-24 h-1 bg-indigo-600 dark:bg-indigo-500 rounded"></div>
         </div>
         <p class="mt-4 text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
-          Currently open to Senior Backend Developer roles. Feel free to reach out for opportunities or just to say hi!
+          Actively seeking Ph.D. opportunities in AI / ML & Computer Vision as well as Senior ML/Backend engineering positions. Prospective advisors, research collaborators, and recruiters are welcome to reach out!
         </p>
       </div>
 

@@ -79,6 +79,7 @@ const themeStore = useThemeStore()
 const isOpen = ref(false)
 
 const links = [
+  { name: 'Research', href: '#research' },
   { name: 'Experience', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },

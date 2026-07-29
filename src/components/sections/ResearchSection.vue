@@ -1,11 +1,14 @@
 <template>
-  <section id="research" class="py-20 bg-gray-50 dark:bg-gray-800/50 transition-colors duration-300">
+  <section id="research" class="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h5 class="text-sm font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest mb-2">My Focus</h5>
+        <h5 class="text-sm font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest mb-2">Doctoral Pursuit & Core Domains</h5>
         <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
-          Research Interests
+          Ph.D. Research Directions
         </h2>
+        <p class="mt-4 text-xl text-gray-500 dark:text-gray-400 max-w-3xl mx-auto">
+          Pioneering advancements at the intersection of Visual Speech Recognition, Mechanistic Interpretability, and Low-Resource AI Accessibility.
+        </p>
         <div class="mt-6 flex justify-center">
           <div class="w-24 h-1 bg-indigo-600 dark:bg-indigo-500 rounded"></div>
         </div>

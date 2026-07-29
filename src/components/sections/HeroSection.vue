@@ -11,29 +11,38 @@
       <div class="text-center md:text-left flex flex-col md:flex-row items-center justify-between">
         
         <div class="md:w-3/5 mb-10 md:mb-0">
+          <!-- Ph.D. Seeking Badge -->
+          <a href="#research" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 text-sm font-semibold mb-6 shadow-sm hover:scale-105 transition-all">
+            <span class="flex h-2.5 w-2.5 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-indigo-500"></span>
+            </span>
+            <span>🎓 Actively Seeking Ph.D. Opportunities in AI / ML & Computer Vision</span>
+          </a>
+
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             <span class="block mb-2">Hi, I'm</span>
-            <span class="block text-indigo-600 dark:text-indigo-400">Muhammad Ishaque Nizamani  </span>
+            <span class="block text-indigo-600 dark:text-indigo-400">Muhammad Ishaque Nizamani</span>
           </h1>
-          <h2 class="mt-3 text-xl sm:text-2xl text-gray-600 dark:text-gray-300 font-medium">
-            Backend & Machine Learning Engineer
+          <h2 class="mt-3 text-xl sm:text-2xl text-gray-700 dark:text-gray-200 font-semibold">
+            Machine Learning Engineer & M.E. Researcher <span class="text-indigo-600 dark:text-indigo-400 font-bold">(CGPA 3.92)</span>
           </h2>
-          <p class="mt-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg sm:max-w-xl md:text-xl">
-            Passionate about building robust, secure backends, integrating AI/ML technologies, and optimizing databases for high-performance applications.
+          <p class="mt-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg sm:max-w-xl md:text-xl leading-relaxed">
+            Specializing in Visual Speech Recognition, Mechanistic Interpretability, and Scalable AI Systems. Pursuing Ph.D. positions to drive next-generation AI innovation.
           </p>
-          <div class="mt-8 sm:flex sm:justify-center md:justify-start gap-4">
+          <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
             <div class="rounded-md shadow">
-              <a href="#contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors md:py-4 md:text-lg md:px-10">
-                Get in touch
+              <a href="#research" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 transition-colors md:py-3.5 md:text-lg">
+                🔬 Explore Research
               </a>
             </div>
-            <div class="mt-3 sm:mt-0 rounded-md shadow">
-              <a href="#projects" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 dark:text-white dark:bg-gray-800 dark:hover:bg-gray-700 transition-colors md:py-4 md:text-lg md:px-10">
-                View Work
+            <div class="rounded-md shadow">
+              <a href="#contact" class="w-full flex items-center justify-center px-6 py-3 border border-indigo-200 dark:border-indigo-800 text-base font-medium rounded-md text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/40 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 transition-colors md:py-3.5 md:text-lg">
+                ✉️ Ph.D. Inquiry
               </a>
             </div>
-            <div class="mt-3 sm:mt-0 rounded-md shadow">
-              <a href="/Muhammad_Ishaque_CV.pdf" download="Muhammad_Ishaque_CV.pdf" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors md:py-4 md:text-lg md:px-10">
+            <div class="rounded-md shadow">
+              <a href="/Muhammad_Ishaque_CV.pdf" download="Muhammad_Ishaque_CV.pdf" target="_blank" class="w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 dark:text-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors md:py-3.5 md:text-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>

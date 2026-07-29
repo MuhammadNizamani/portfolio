@@ -14,12 +14,12 @@ import ContactSection from '@/components/sections/ContactSection.vue'
   <div class="flex flex-col">
     <HeroSection />
     <SummarySection />
-    <ServicesSection />
+    <ResearchSection />
+    <EducationSection />
     <ExperienceSection />
     <ProjectsSection />
-    <ResearchSection />
     <SkillsSection />
-    <EducationSection />
+    <ServicesSection />
     <ContactSection />
   </div>
 </template>

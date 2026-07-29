@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
+  <section id="projects" class="py-20 bg-gray-50 dark:bg-gray-800/50 transition-colors duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
@@ -12,7 +12,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
-        <div v-for="(project, index) in projects" :key="index" class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-gray-100 dark:border-gray-700 flex flex-col h-full transform hover:-translate-y-2">
+        <div v-for="(project, index) in projects" :key="index" class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-gray-100 dark:border-gray-700 flex flex-col h-full transform hover:-translate-y-2">
           
           <div class="p-8 flex-grow">
             <div class="flex items-center justify-between mb-4">
