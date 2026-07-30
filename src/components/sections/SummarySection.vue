@@ -66,6 +66,51 @@
           </p>
         </div>
       </div>
+
+      <!-- Personal Pursuits & Mindset Section -->
+      <div class="mt-12">
+        <div class="text-center mb-6">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white flex items-center justify-center gap-2">
+            <span>Beyond Research & Engineering</span>
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Disciplines that shape my focus, stamina, and strategic thinking</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <!-- Distance Running Card -->
+          <div class="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-100 dark:border-gray-800 shadow-md hover:shadow-lg transition-all hover:-translate-y-1">
+            <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl flex items-center justify-center mb-4 text-indigo-600 dark:text-indigo-400 text-2xl">
+              🏃
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Long-Distance Running</h4>
+            <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              Currently training to complete a <strong>Half Marathon (21.1 km)</strong>. Cultivating endurance, consistency, and mental stamina under physical fatigue.
+            </p>
+          </div>
+
+          <!-- Chess Card -->
+          <div class="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-100 dark:border-gray-800 shadow-md hover:shadow-lg transition-all hover:-translate-y-1">
+            <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl flex items-center justify-center mb-4 text-indigo-600 dark:text-indigo-400 text-2xl">
+              ♟️
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Chess Strategy</h4>
+            <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              Avid chess enthusiast. Sharpening spatial calculation, tactical pattern recognition, and long-term positional foresight.
+            </p>
+          </div>
+
+          <!-- Dota 2 Esports Card -->
+          <div class="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-100 dark:border-gray-800 shadow-md hover:shadow-lg transition-all hover:-translate-y-1">
+            <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl flex items-center justify-center mb-4 text-indigo-600 dark:text-indigo-400 text-2xl">
+              🎮
+            </div>
+            <h4 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Dota 2 (RTS)</h4>
+            <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              Competitive Real-Time Strategy enthusiast. Exercising high-pressure decision-making, rapid adaptability, and team coordination.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>

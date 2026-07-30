@@ -66,6 +66,13 @@
 <script setup>
 const projects = [
   {
+    title: 'Open-Source Contributor — Unify Ivy',
+    type: 'Open Source',
+    description: 'Contributed to Ivy (unifyai/ivy), a framework-agnostic ML transpiler bridging PyTorch, TensorFlow, and JAX. Implemented operator equivalence across backends, authored unit tests for code translation, and expanded operator coverage.',
+    techStack: ['Python', 'Ivy', 'PyTorch', 'TensorFlow', 'JAX', 'MLOps', 'Transpilation'],
+    link: 'https://github.com/unifyai/ivy'
+  },
+  {
     title: 'Activist Contributor',
     type: 'Open Source',
     description: 'Proactively identified technical debt and bugs in the open-source repository. Implemented fixes and automated tests, and deciphered complex codebases to resolve critical backend issues, ensuring stable operation.',
