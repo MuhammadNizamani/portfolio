@@ -114,6 +114,10 @@ const sendEmail = async () => {
     const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     
+    if (!serviceID || !templateID || !publicKey) {
+      throw new Error('EmailJS environment variables are missing in configuration.')
+    }
+    
     // We create a templateParams object matching standard contact templates
     const templateParams = {
       from_name: form.value.name,
@@ -137,9 +141,13 @@ const sendEmail = async () => {
       message: ''
     }
   } catch (error) {
-    console.error('FAILED...', error)
+    console.error('EmailJS Send Error:', error)
     statusSuccess.value = false
-    statusMessage.value = 'Failed to send the message. Please try again later or email me directly.'
+    if (error?.status === 412 || error?.text?.includes('Invalid grant')) {
+      statusMessage.value = 'Email service is currently reconnecting. Please email directly at ishaque.niz786@gmail.com'
+    } else {
+      statusMessage.value = 'Failed to send the message. Please email directly at ishaque.niz786@gmail.com'
+    }
   } finally {
     isSending.value = false
     
